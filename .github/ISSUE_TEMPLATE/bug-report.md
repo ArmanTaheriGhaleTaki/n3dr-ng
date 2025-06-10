@@ -21,7 +21,7 @@ If the matter is security related, please disclose it privately by sending an em
 
 **Environment**:
 - nexus version:
-- n3dr version (use `n3dr -v`):
+- n3dr version (use `n3dr --version`):
 - OS (e.g: `cat /etc/os-release`):
 - Kernel (e.g. `uname -a`):
 - Others:
