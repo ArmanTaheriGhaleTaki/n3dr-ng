@@ -18,7 +18,6 @@ import (
 	"github.com/spf13/viper"
 )
 
-//go:embed assets/logo/text-image-com-n3dr.txt
 var logo string
 
 var regex string
