@@ -10,8 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	"github.com/ory/dockertest/v3"
 	"github.com/ory/dockertest/v3/docker"
 	log "github.com/sirupsen/logrus"

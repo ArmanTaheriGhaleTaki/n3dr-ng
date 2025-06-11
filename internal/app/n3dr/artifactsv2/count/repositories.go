@@ -3,8 +3,8 @@ package count
 import (
 	"fmt"
 
-	"github.com/030/n3dr/internal/app/n3dr/artifactsv2/artifacts"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/artifactsv2/artifacts"
+	"n3dr/internal/app/n3dr/connection"
 )
 
 func (n *Nexus3) Repositories() error {

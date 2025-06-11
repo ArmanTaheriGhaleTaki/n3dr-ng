@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/models"
 )
 
 // NewUpdateRepository40Params creates a new UpdateRepository40Params object,

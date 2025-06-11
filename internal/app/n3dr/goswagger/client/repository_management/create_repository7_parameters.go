@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/models"
 )
 
 // NewCreateRepository7Params creates a new CreateRepository7Params object,

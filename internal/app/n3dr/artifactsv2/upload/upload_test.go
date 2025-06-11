@@ -4,10 +4,11 @@ import (
 	"os"
 	"testing"
 
+	"n3dr/internal/app/n3dr/config/repository"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/n3drtest"
+
 	"github.com/030/mij"
-	"github.com/030/n3dr/internal/app/n3dr/config/repository"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/n3drtest"
 	"github.com/stretchr/testify/assert"
 )
 

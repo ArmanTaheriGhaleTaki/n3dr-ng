@@ -10,7 +10,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	log "github.com/sirupsen/logrus"
 )
 

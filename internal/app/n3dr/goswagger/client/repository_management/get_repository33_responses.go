@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/models"
 )
 
 // GetRepository33Reader is a Reader for the GetRepository33 structure.

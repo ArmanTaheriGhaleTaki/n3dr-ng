@@ -3,7 +3,8 @@ package count
 import (
 	"testing"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	"github.com/stretchr/testify/assert"
 )
 

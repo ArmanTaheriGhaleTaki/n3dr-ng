@@ -5,8 +5,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/security_management_l_d_a_p"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/goswagger/client/security_management_l_d_a_p"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	log "github.com/sirupsen/logrus"
 )
 

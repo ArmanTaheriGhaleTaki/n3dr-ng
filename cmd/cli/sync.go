@@ -1,11 +1,12 @@
-package main
+package cli
 
 import (
 	"sync"
 
-	"github.com/030/n3dr/internal/app/n3dr/artifactsv2"
-	"github.com/030/n3dr/internal/app/n3dr/artifactsv2/upload"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/artifactsv2"
+	"n3dr/internal/app/n3dr/artifactsv2/upload"
+	"n3dr/internal/app/n3dr/connection"
+
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

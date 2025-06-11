@@ -1,7 +1,8 @@
 package connection
 
 import (
-	apiclient "github.com/030/n3dr/internal/app/n3dr/goswagger/client"
+	apiclient "n3dr/internal/app/n3dr/goswagger/client"
+
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-playground/validator/v10"

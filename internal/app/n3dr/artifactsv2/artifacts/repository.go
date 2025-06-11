@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/repository_management"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/client/repository_management"
+	"n3dr/internal/app/n3dr/goswagger/models"
 )
 
 type Nexus3 struct {

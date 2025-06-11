@@ -5,10 +5,11 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/security_management_roles"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/security_management_users"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/client/security_management_roles"
+	"n3dr/internal/app/n3dr/goswagger/client/security_management_users"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	log "github.com/sirupsen/logrus"
 )
 

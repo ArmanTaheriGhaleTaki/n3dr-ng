@@ -4,7 +4,7 @@ import (
 	"encoding/csv"
 	"os"
 
-	"github.com/030/n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/connection"
 )
 
 type csvWriter struct {

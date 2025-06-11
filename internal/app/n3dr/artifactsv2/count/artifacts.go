@@ -9,10 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/artifactsv2/artifacts"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/components"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/artifactsv2/artifacts"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/client/components"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	log "github.com/sirupsen/logrus"
 )
 

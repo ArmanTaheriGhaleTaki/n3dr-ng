@@ -1,11 +1,12 @@
-package main
+package cli
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/030/n3dr/internal/app/n3dr/config/repository"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/config/repository"
+	"n3dr/internal/app/n3dr/connection"
+
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

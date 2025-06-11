@@ -10,11 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/030/n3dr/internal/app/n3dr/artifactsv2/artifacts"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/client/components"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
-	"github.com/030/n3dr/internal/app/n3dr/s3"
+	"n3dr/internal/app/n3dr/artifactsv2/artifacts"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/client/components"
+	"n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/s3"
+
 	"github.com/030/p2iwd/pkg/p2iwd"
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/mholt/archives"

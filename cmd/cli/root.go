@@ -1,4 +1,4 @@
-package main
+package cli
 
 import (
 	"crypto/tls"
@@ -10,8 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
+	cli "n3dr/internal/app/n3dr/artifactsv2"
+
 	"github.com/030/logging/pkg/logging"
-	cli "github.com/030/n3dr/internal/app/n3dr/artifactsv2"
 	homedir "github.com/mitchellh/go-homedir"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
@@ -57,7 +58,7 @@ Nexus3 repository and restoring them.`,
 	},
 }
 
-func execute() {
+func Execute() {
 	now := time.Now()
 	defer func() {
 		log.Debugf("n3dr was running for: '%s'", time.Since(now))

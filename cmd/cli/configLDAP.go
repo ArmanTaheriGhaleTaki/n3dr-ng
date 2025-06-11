@@ -1,9 +1,10 @@
-package main
+package cli
 
 import (
-	"github.com/030/n3dr/internal/app/n3dr/config/security"
-	"github.com/030/n3dr/internal/app/n3dr/connection"
-	"github.com/030/n3dr/internal/app/n3dr/goswagger/models"
+	"n3dr/internal/app/n3dr/config/security"
+	"n3dr/internal/app/n3dr/connection"
+	"n3dr/internal/app/n3dr/goswagger/models"
+
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
